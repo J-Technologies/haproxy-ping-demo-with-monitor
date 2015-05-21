@@ -1,0 +1,4 @@
+com\vdzon\haproxyfrontend\ConfigApplication.class
+com\vdzon\haproxyfrontend\rest\HaProxyApi.class
+com\vdzon\haproxyfrontend\model\ServerModel.class
+com\vdzon\haproxyfrontend\rest\ServerResource.class

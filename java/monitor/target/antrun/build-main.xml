@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo message="Push to server/home/"/>
+  <scp trust="yes" todir="${apache-scp-user}:${apache-scp-passwd}@${apache-scp-host}:${apache-scp-wwwdir}" port="${apache-scp-port}">
+    <fileset dir="C:\workspace\reactive-apps\pingdemo\java\monitor/src/main/webapp">
+      <include name="**/*.*"/>
+    </fileset>
+  </scp>
+</target>
+</project>
